@@ -8,7 +8,7 @@ import os
 
 
 # Read the HTML content from index.html
-with open("Web_portion\index.html", "r") as f:
+with open("Insta to Bootstrap\Web_portion\index.html", "r") as f:
     html_content = f.read()
 
 soup = BeautifulSoup(html_content, 'html.parser')
@@ -179,7 +179,7 @@ def all_in_one(root_folder):
                        
       
       
-pathway = r"C:\Users\ratth\Downloads\Insta to Bootstrap\Categories_folder"
+pathway = "Insta to Bootstrap\Web_portion\Categories_folder"
 
 def category_level_down(head_folder):
     for category in os.listdir(head_folder):
